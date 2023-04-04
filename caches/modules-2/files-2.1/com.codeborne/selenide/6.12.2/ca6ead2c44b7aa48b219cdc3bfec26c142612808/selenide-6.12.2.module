@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.codeborne",
+    "module": "selenide",
+    "version": "6.12.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.8.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "com.codeborne",
+          "module": "selenide-core",
+          "version": {
+            "requires": "6.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "selenide-6.12.2.jar",
+          "url": "selenide-6.12.2.jar",
+          "size": 26529,
+          "sha512": "35627220e809f0e30e83691a84c81856afbdd41d3a96e9e37767d9da93c3e56c7d729c4a91799e0bb0a9d49951e8c814c34b132ff6de3e4e791f676d03d9a30c",
+          "sha256": "4af630b999b6da1680e15ce2e71f4ee977b4782823647070b562c440cafc58c2",
+          "sha1": "e861590e2754d57502d8ac17aa8a5c91c64aa5c1",
+          "md5": "d524efe7d6fb775f805a292af10eaea3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.8.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.6"
+          }
+        },
+        {
+          "group": "com.codeborne",
+          "module": "selenide-core",
+          "version": {
+            "requires": "6.12.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "selenide-6.12.2.jar",
+          "url": "selenide-6.12.2.jar",
+          "size": 26529,
+          "sha512": "35627220e809f0e30e83691a84c81856afbdd41d3a96e9e37767d9da93c3e56c7d729c4a91799e0bb0a9d49951e8c814c34b132ff6de3e4e791f676d03d9a30c",
+          "sha256": "4af630b999b6da1680e15ce2e71f4ee977b4782823647070b562c440cafc58c2",
+          "sha1": "e861590e2754d57502d8ac17aa8a5c91c64aa5c1",
+          "md5": "d524efe7d6fb775f805a292af10eaea3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "selenide-6.12.2-javadoc.jar",
+          "url": "selenide-6.12.2-javadoc.jar",
+          "size": 153966,
+          "sha512": "e083a7bec713c615c83cf25623b3b2b8d4ff6959b5d28565c85ab42dd3de251c7b7580979a5cc8902a7f39050f5290fcca173481cc126a0b6d138f083b1fa642",
+          "sha256": "2d72ea9b2618c484439d057e6bec55d837c245c68fa78f1d652fcf05b610ec7c",
+          "sha1": "28ff8ef6974f57a3918d60062ff5f9a4aedf1636",
+          "md5": "a99a5b7fe2f0b7896a7b235fe5efad4e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "selenide-6.12.2-sources.jar",
+          "url": "selenide-6.12.2-sources.jar",
+          "size": 24494,
+          "sha512": "9465106b64a42133980d358ec080ac2580aeb5b958b0ddf0a175e0ec27bb62ab294ec5d230c08f7d662a864b18c4eeeb7f665f5d97ad8005d675ceb16d4c98cb",
+          "sha256": "2bba39b2b93dd6ab513c77c3f68c320f773ab97fa24c86485560d26d5c36044b",
+          "sha1": "3347f0639938fb9fe87c9424931d580fed5fb928",
+          "md5": "006b94856d98c7564af83678c0a82b2e"
+        }
+      ]
+    }
+  ]
+}

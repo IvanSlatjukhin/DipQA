@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-logs",
+    "version": "1.22.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api-logs",
+          "version": {
+            "requires": "1.22.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.22.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.22.0-alpha.jar",
+          "url": "opentelemetry-sdk-logs-1.22.0-alpha.jar",
+          "size": 45032,
+          "sha512": "5bafcdc9626765d43db6d20bdaa8948fe8fb9ff66ae422b87cf2c146f5fddb73f646d6ccf8036173318e4d7509d55f0419d5bc3def82aad56e73f76e491e228e",
+          "sha256": "aa625e0c30683e380e88695f22f58fa292cc0e1a43ed0a07569750b81775d9e7",
+          "sha1": "95479b7d72e2ab9a0d7a17848a6498d4c4689d00",
+          "md5": "afad5a9e63d0e5a2fa22eee4e9f1c2da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api-logs",
+          "version": {
+            "requires": "1.22.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.22.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.22.0-alpha.jar",
+          "url": "opentelemetry-sdk-logs-1.22.0-alpha.jar",
+          "size": 45032,
+          "sha512": "5bafcdc9626765d43db6d20bdaa8948fe8fb9ff66ae422b87cf2c146f5fddb73f646d6ccf8036173318e4d7509d55f0419d5bc3def82aad56e73f76e491e228e",
+          "sha256": "aa625e0c30683e380e88695f22f58fa292cc0e1a43ed0a07569750b81775d9e7",
+          "sha1": "95479b7d72e2ab9a0d7a17848a6498d4c4689d00",
+          "md5": "afad5a9e63d0e5a2fa22eee4e9f1c2da"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.22.0-alpha-javadoc.jar",
+          "url": "opentelemetry-sdk-logs-1.22.0-alpha-javadoc.jar",
+          "size": 137135,
+          "sha512": "413b5f9946b2f57ae85f39f6f2fea0d7ba266c8fcb1940972b84d2879c90585d73b4354427dea2aabc2cb16d642a0b8c880c9a0e491d8712654379a4561de731",
+          "sha256": "54b311115f8a8cc31febfacb21d55350ab35fcc27319a3b9168828d7ee68d61b",
+          "sha1": "b6bfd326bcc0ee344df47963d796edf8c2e84e97",
+          "md5": "4aa9b83a86e26b35463443dbc559239a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.22.0-alpha-sources.jar",
+          "url": "opentelemetry-sdk-logs-1.22.0-alpha-sources.jar",
+          "size": 27694,
+          "sha512": "b92b8401ebe38d8ade27b6666f59f83c7b57aace6ea687d8ddee7a7e5c6df036e64119d1583a1f2ab0c7ca861dfe2124ad6bca624acdd35f706c874516dc95d6",
+          "sha256": "6299e1a3db5a0846b4be51b6e8127cb3c4675de2e0289f9657e4373763048f4b",
+          "sha1": "6a50ef73720403da80db5d9f351dc9eb53ad3a22",
+          "md5": "f5b75d29b4e1aa85b9d47e9116db09c7"
+        }
+      ]
+    }
+  ]
+}

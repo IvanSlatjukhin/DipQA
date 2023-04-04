@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.groovy",
+    "module": "groovy-xml",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "groovydocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "groovydoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-xml-4.0.1-groovydoc.jar",
+          "url": "groovy-xml-4.0.1-groovydoc.jar",
+          "size": 262407,
+          "sha512": "9b479eec5643d8901eb39d4c44ebd77683deaa13824cf72857d02de33ee0b100fab5d2548ef8cc37503e886a9f79a2701c12f16123951383c010b4f955e32bef",
+          "sha256": "45fa74a301447f40242abf3a534501f0df2daf33c1c4f920f47453328d99d5d5",
+          "sha1": "4566154dc25022136be8dfb1dddc3642b37c516b",
+          "md5": "e2470d38d66316eb7ed36e7afe00a8cb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-xml-4.0.1-javadoc.jar",
+          "url": "groovy-xml-4.0.1-javadoc.jar",
+          "size": 322941,
+          "sha512": "2fbff34f5966b4ca7634341876050bbc71a7f7f450dd7548b82b0b75edb15844e401a1f0fdc6c3e6a65d503bb26c67da5d966ffade951800049af18912619755",
+          "sha256": "7b2d319128d6e9a2c6eaae140698008ac1567940a7e466da495a0d7db334784f",
+          "sha1": "aae9d39d3ded10e60d7a7669640ee2921b698677",
+          "md5": "8ec5bf765058db5d5e8b4143b762b4c4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "groovy-xml-4.0.1-sources.jar",
+          "url": "groovy-xml-4.0.1-sources.jar",
+          "size": 98438,
+          "sha512": "208f7aa8b2c2fd51e1b046e0aede6697469247908676056837d30a41f484b0fa4b763fccbd9d1894fdaa0a7f3094abdada694405c0bfe6681dc46795b17e89de",
+          "sha256": "184a5fa45888208a11b00742996c32cde55f171f1555ba5c26d069f400843e34",
+          "sha1": "61b0efb826cba8969945332a10db6a766ddbea22",
+          "md5": "2296c6a7369edc69eb9f917a932c14a0"
+        }
+      ]
+    },
+    {
+      "name": "groovyApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-xml-4.0.1.jar",
+          "url": "groovy-xml-4.0.1.jar",
+          "size": 233815,
+          "sha512": "37b71f5e47b22cee611bbd3a59d80bbac37c74bac9ca1e261eae4a3c1563d920557ca5e7bc40978b53e0f12c961cb5df440cf42f6d7e84b6a281e7eabfe84afe",
+          "sha256": "d2dc9d80f668b8eb4186d8d3414085b97835510825b8aa1d93e59256d9a35a22",
+          "sha1": "7346b1b748aa3653299deb2f3666254b4c04fd06",
+          "md5": "f48523f79f6a3bed4d8fbd815b9f54a1"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-xml",
+          "version": "4.0.1"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-xml",
+          "version": "4.0.1"
+        }
+      ]
+    },
+    {
+      "name": "groovyRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "groovy-xml-4.0.1.jar",
+          "url": "groovy-xml-4.0.1.jar",
+          "size": 233815,
+          "sha512": "37b71f5e47b22cee611bbd3a59d80bbac37c74bac9ca1e261eae4a3c1563d920557ca5e7bc40978b53e0f12c961cb5df440cf42f6d7e84b6a281e7eabfe84afe",
+          "sha256": "d2dc9d80f668b8eb4186d8d3414085b97835510825b8aa1d93e59256d9a35a22",
+          "sha1": "7346b1b748aa3653299deb2f3666254b4c04fd06",
+          "md5": "f48523f79f6a3bed4d8fbd815b9f54a1"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.codehaus.groovy",
+          "name": "groovy-xml",
+          "version": "4.0.1"
+        },
+        {
+          "group": "org.apache.groovy",
+          "name": "groovy-xml",
+          "version": "4.0.1"
+        }
+      ]
+    }
+  ]
+}

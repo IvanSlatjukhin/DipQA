@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-metrics",
+    "version": "1.22.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.22.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.22.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-metrics-1.22.0.jar",
+          "url": "opentelemetry-sdk-metrics-1.22.0.jar",
+          "size": 281565,
+          "sha512": "26b0e86d9833d72262ebe85ec7d4f9b3d9d06c08c76c4e8a02f1640b28357e081ac38e7f146f2518d753e5b5033cd10fa6789dde6be6eeb7ab6c2a657680952a",
+          "sha256": "d9e26a71571014a386cba0cf2bed95b3751db70d0d6f8999f8d475d840a59203",
+          "sha1": "01c696ad4acc4898ca2f7901bf47d8665c39774a",
+          "md5": "197a0406c5b0c9c79b221330a651f0ee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.22.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.22.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-metrics-1.22.0.jar",
+          "url": "opentelemetry-sdk-metrics-1.22.0.jar",
+          "size": 281565,
+          "sha512": "26b0e86d9833d72262ebe85ec7d4f9b3d9d06c08c76c4e8a02f1640b28357e081ac38e7f146f2518d753e5b5033cd10fa6789dde6be6eeb7ab6c2a657680952a",
+          "sha256": "d9e26a71571014a386cba0cf2bed95b3751db70d0d6f8999f8d475d840a59203",
+          "sha1": "01c696ad4acc4898ca2f7901bf47d8665c39774a",
+          "md5": "197a0406c5b0c9c79b221330a651f0ee"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-metrics-1.22.0-javadoc.jar",
+          "url": "opentelemetry-sdk-metrics-1.22.0-javadoc.jar",
+          "size": 188716,
+          "sha512": "baab7ea2f72029bc688a625a6f42d97d9450fce05c4250c6957b86b49bcdc02b884feeaacc53c8de38b469ab1e3915706396c911fee604de7ec8a091ef134c17",
+          "sha256": "d96620d6f7977deac1b54a84d1be21739440d2d97fc68f94306b0abb13669295",
+          "sha1": "3cef252b067cdd9339df6945ca7ae7b47d3f94d8",
+          "md5": "88896fc8e6c7c311c4b84ddb4b32ae3f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-metrics-1.22.0-sources.jar",
+          "url": "opentelemetry-sdk-metrics-1.22.0-sources.jar",
+          "size": 157640,
+          "sha512": "24dc27dbfc0b5e577546895867d6cc54e23e85ecad198e0d0c14a5ab72608306e70b6882fc03e6ffb3f2e47deff84a7996cde5b36728f47a8157f9057725afa6",
+          "sha256": "85745a4e47572f6bc5413f199ac86e0f6afef91188b69063d414b9545ff93816",
+          "sha1": "b6bf586e878389245a6f65eece75a8477dbf3f67",
+          "md5": "ecd34519205ea270a9c7673822f22e1d"
+        }
+      ]
+    }
+  ]
+}
