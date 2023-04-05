@@ -3,9 +3,11 @@ package test;
 import lombok.val;
 import org.junit.jupiter.api.Test;
 
+import static data.DataHelper.getValidApprovedCardData;
+import static data.DataHelper.getValidDeclinedCardData;
+import static data.RestApiHelper.fillPaymentFormWithCreditCardData;
+import static data.RestApiHelper.fillPaymentFormWithDebitCardData;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static data.DataHelper.*;
-import static data.RestApiHelper.*;
 
 class ApiTest {
 
